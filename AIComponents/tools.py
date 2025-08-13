@@ -18,6 +18,6 @@ openaigpt4 = ChatOpenAI(model='gpt-4',
 WebsiteSearchTool = WebsiteSearchTool()
 
 # Initialize GoogleSerperAPIWrapper with the API key from environment variables
-google_serper = GoogleSerperAPIWrapper(api_key=os.getenv('serper_api_key'))
+google_serper = GoogleSerperAPIWrapper(api_key=os.getenv('SERPER_API_KEY'))
 
 GBookTool = GBookTool(k=3)
